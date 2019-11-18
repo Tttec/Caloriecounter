@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".kaydolActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="145dp"
+        android:src="@drawable/calorie_counter"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı adı"
+        android:id="@+id/et_kullanıcıAdı"
+        android:background="@drawable/edittext_arkaplan"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adınız"
+        android:id="@+id/et_Ad"
+        android:background="@drawable/edittext_arkaplan"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:id="@+id/et_Email"
+        android:background="@drawable/edittext_arkaplan"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Şifreniz"
+        android:id="@+id/et_Sifre"
+        android:background="@drawable/edittext_arkaplan"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textPassword"
+        android:padding="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kaydol"
+        android:id="@+id/btn_kaydol_activity"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_girisSayfasina_git"
+        android:text="Zaten bir hesabın var mı? Giriş Yapın.."
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        />
+
+
+</LinearLayout>
