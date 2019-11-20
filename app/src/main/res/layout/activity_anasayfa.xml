@@ -4,12 +4,67 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".anasayfaActivity">
-    <TextView
-        android:text="ANA SAYFA"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    tools:context=".anasayfaActivity"
+    android:orientation="vertical">
 
-        />
+    <EditText
+        android:id="@+id/et_besinadi"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Besin adını giriniz"
+        android:background="@drawable/edittext_arkaplan" />
+
+    <EditText
+        android:id="@+id/et_protein"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:hint="protein değerini giriniz"
+        android:background="@drawable/edittext_arkaplan" />
+
+    <EditText
+        android:id="@+id/et_yag"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:hint="yağ değerini giriniz"
+        android:background="@drawable/edittext_arkaplan" />
+
+    <EditText
+        android:id="@+id/et_karbonhidrat"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:hint="katbonhidrat değerini giriniz"
+        android:background="@drawable/edittext_arkaplan" />
+    <EditText
+        android:id="@+id/et_kalori"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:hint="kalori değerini giriniz"
+        android:background="@drawable/edittext_arkaplan" />
+
+    <Button
+        android:id="@+id/btn_besinEkle"
+        android:background="@drawable/buton_arkaplan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:text="Besin Ekle" />
+
 
 </LinearLayout>

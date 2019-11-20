@@ -84,10 +84,12 @@ public class girisActivity extends AppCompatActivity {
                                             @Override
                                             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                                                 pdgiris.dismiss();
+
                                                 Intent intent=new Intent(girisActivity.this,anasayfaActivity.class);
                                                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
                                                 startActivity(intent);
                                                 finish();
+
                                             }
 
                                             @Override
